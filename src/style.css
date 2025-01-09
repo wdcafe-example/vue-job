@@ -1,0 +1,60 @@
+/* 구글 폰트 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {    
+    --main-color-dark: #4B3C30;
+    --main-color-light: #D1B000;
+    --text-color-dark: #1E1E1E;
+    --text-color-mid: #666666;
+    --text-color-light: #B3B3B3;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Noto Sans KR', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color-dark);
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color-dark);
+}
+
+ul{
+  list-style: none;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  padding: 15px;
+}
+
+.loading_info {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
